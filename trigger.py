@@ -2,7 +2,7 @@ import requests
 import keyboard
 
 def send_empty_post():
-    url = "http://example.com/endpoint"
+    url = "http://fosiaudio.local/benny"
     requests.post(url)
     print(f"Empty POST sent to {url}")
 
